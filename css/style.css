@@ -1,6 +1,20 @@
 
 #title {
     text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: larger;
+    margin: 10px;
+}
+
+#white-house {
+    width: 100%;
+    position: absolute;
+    height: 200vh;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.3;
 }
 
 #img-div img{
@@ -20,6 +34,8 @@
     text-align: justify;
     margin-left: 20%;
     margin-right: 20%;
+    font-size: larger;
+    font-family: 'Exo 2', sans-serif;
 }
 
 @media (max-width: 600px) {
@@ -27,5 +43,16 @@
         text-align: justify;
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    #white-house {
+        width: 100%;
+        position: absolute;
+        height: 150vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        z-index: -1;
+        opacity: 0.3;
     }
 }
